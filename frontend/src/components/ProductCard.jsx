@@ -93,7 +93,7 @@ const ProductCard = ({ product }) => {
 				</Heading>
 
 				<Text fontWeight='bold' fontSize='xl' color={textColor} mb={4}>
-					${product.price}
+					Sweat Points: {product.price}
 				</Text>
 
 				<HStack spacing={2}>
