@@ -68,7 +68,7 @@ const ProductCard = ({ product }) => {
 		} else {
 			toast({
 				title: "Success",
-				description: "Product updated successfully",
+				description: "Exercise updated successfully",
 				status: "success",
 				duration: 3000,
 				isClosable: true,
@@ -110,7 +110,7 @@ const ProductCard = ({ product }) => {
 				<ModalOverlay />
 
 				<ModalContent>
-					<ModalHeader>Update Product</ModalHeader>
+					<ModalHeader>Update Exercise</ModalHeader>
 					<ModalCloseButton />
 					<ModalBody>
 						<VStack spacing={4}>
